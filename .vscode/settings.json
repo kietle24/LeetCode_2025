@@ -1,0 +1,21 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "*.cpp": "cpp",
+        "*.cc": "cpp",
+        "*.c": "c",
+        "vector": "cpp",
+        "regex": "cpp",
+        "random": "cpp",
+        "iostream": "cpp",
+        "new": "cpp",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "array": "cpp",
+        "functional": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    },
+    "git.ignoreLimitWarning": true
+}
