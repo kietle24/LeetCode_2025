@@ -18,7 +18,7 @@ public:
         if (root == nullptr) return output;
 
         stack<TreeNode*> st;
-        st.push(root);
+        st.push(root);  
 
         while (!st.empty()) {
             TreeNode* current = st.top();
