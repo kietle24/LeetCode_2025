@@ -1,20 +1,21 @@
 class Solution  { 
     public : 
-    int sumRootToLeaf(TreeNode* root) { 
-        int total = 0 ; 
-        dfs(root ,  0 , total ) ;
-        return total ; 
-        
+    int sumRoottoLeaf(TreeNode * root ) {  
+        int totla = 0 ;  
+        dfs(root , 0 , total ) ; 
+        return total  ; 
+
     }
-    void dfs(TreeNode* root . int pathSum , &int total )  {  
-        if(root == NULL )return ; 
-         pathSum = pathSum* 2+ root->val ;  { 
-            if(root->left == NULL && root->right == nullptr ) { 
-                total + pathSum ; 
+    void dfs(TreeNode* root , int pathSum , int &  total ) {  
+        if(root == nullptr ) return ; 
+        pathSum = pathSum * 10 + root -> val ;  { 
+            if(root->left == nullptr && root right  = nullptr ) { 
+                total += total + pathSum ; 
                 return ; 
             }
-         } 
-         dfs(root->left , pathSum , total ) ; 
-         dfs(root->right , pathSum , total ) ; 
+            dfs(root->left , pathSum , total ) ; 
+            dfs(root -> right  , pathSum , total ) ; 
+        }
     }
+
 }

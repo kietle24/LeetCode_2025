@@ -16,7 +16,22 @@
         "tuple": "cpp",
         "type_traits": "cpp",
         "utility": "cpp",
-        "cstdlib": "cpp"
+        "cstdlib": "cpp",
+        "chrono": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "string_view": "cpp",
+        "span": "cpp",
+        "string": "cpp",
+        "bitset": "cpp",
+        "flat_map": "cpp",
+        "flat_set": "cpp",
+        "initializer_list": "cpp",
+        "ranges": "cpp",
+        "stacktrace": "cpp",
+        "valarray": "cpp",
+        "any": "cpp"
     },
     "git.ignoreLimitWarning": true
 }
